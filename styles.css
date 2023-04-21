@@ -1,2 +1,9 @@
 
 /* Your CSS Code here. */
+
+form[input] {
+    margin-bottom: 20%;
+}
+
+
+

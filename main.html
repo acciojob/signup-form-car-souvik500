@@ -6,10 +6,55 @@
 	<link rel="stylesheet" href="styles.css">
 </head>
 
+<!-- Name*
+Email*
+Gender* (radio buttons)
+Car Brands* (options : [BMW, Audi, Mercedez])
+Age*
+DOB*
+Phone Number
+Password*
+Checkbox*
+submit button -->
 <body>
 	<!-- the entire body must be written by student -->
+
+	<form action="#" method="post">
+		<label for="name">Name*</label>
+		<input type="text" name="name" id="name" placeholder="Name" required> <br>
+		<label for="email">Email*</label>
+		<input type="email" name="email" id="email" placeholder="Email" required> <br>
+		<label for="name">Gender*</label>
+		<input type="radio" name="gender" id="gender_m " required> Male
+		<input type="radio" name="gender" id="gender_f" required> FeMale <br>
+		<label for="car">Brands*</label>
+		<select name="car" id="cars">
+			<option value="--Please choose an option--">--Please choose an option--</option>
+			<option value="bmw">BMW</option>
+			<option value="audi">Audi</option>
+			<option value="Mercedez">Mercedez</option>
+		</select> <br>
+		<label for="age">Age*</label>
+		<input type="number" name="age" id="age" placeholder="Age" required> <br>
+		<label for="dob">DOB*</label>
+		<input type="date" name="dob" id="dob" required> <br>
+		<label for="tel">Phone Number*</label>
+		<input type="tel" name="tel" id="tel" maxlength="10" placeholder="xxx-xxx-xxxx" required> <br>
+		<label for="password">Password*</label>
+		<input type="password" name="password" id="password" placeholder="Password" required> <br>
+
+		<input type="checkbox" name="tos" id="tos" required>I agree to the TOS. <br>
+		<button type="submit">Submit</button>
+
+		
+	</form>
+
+
+
+
+
     <script type="text/javascript" src="./script.js">
-</script>
+	</script>
 
 </body>
 
